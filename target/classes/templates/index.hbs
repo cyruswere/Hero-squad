@@ -1,43 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/index.css">
-    <title>{{#block "title"}}HeroSquad{{/block}}</title>
-</head>
-<body class="text-center">
+{{#partial "content"}}
+    <section>
+       <div class="row">
+           <div class="col-md-5">
+               <div class="card lom">
+                   <div class="card-body border-0">
+                       <h2>Welcome to Hero Squad <img src="/images/1f973.png" alt=""></h2>
+                       <h3>Let's make a Hero for you!</h3>
+                       <img src="/images/puff.jpeg" alt="" height="400" width="500">
+                       <h3>The fun is in the action</h3>
 
-<div class="bg">
-    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto whiteone">
-            <div class="inner">
-                <h3 class="display-4 font-italic masthead-brand">HeroSquad</h3>
-                <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link active" href="/">Home</a>
-                    <a class="nav-link" href="/heroes">Heroes</a>
-                    <a class="nav-link" href="/squads">Squads</a>
-                </nav>
-            </div>
-        </header>
-
-        <main role="main" class="inner cover whitetwo">
-            <h1 class="cover-heading">Hero Squad</h1>
-            <p class="lead">Dive into the fantasy world. Build your own squad with you rown heros.</p>
-        </main>
-
-        <footer class="mastfoot mt-auto">
-            <div class="inner">
-                <p>Proudly <a href="https://github.com/OderoOluoch"> Odero Oluoch</a> </p>
-            </div>
-        </footer>
-    </div>
-</div>
-</body>
-    </body>
-    </html>
-</main>
-<!--end main template-->
+                       <a href="/form" class="btn btn-primary">Create Hero</a>
+                   </div>
+               </div>
+           </div>
+        </div>
+    </section>
+{{/partial}}
+{{> layout.hbs}}
