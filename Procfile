@@ -1,0 +1,1 @@
+web : ./build/install/oderoherosquad/bin/oderoherosquad

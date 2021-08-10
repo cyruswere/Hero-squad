@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+}
+
+
+.bg {
+    /* The image used */
+    background-image: url("/images/hero.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    margin-top: 8%;
+    background-image: url("/images/heroList.jpg");
+    background-size: cover;
+    height: 400px;
+}
+.squad {
+    margin-top: 8%;
+    background-image: url("/images/squad.png");
+    background-size: cover;
+    height: 400px;
+}
+
+.detail{
+    width: 700px;
+}
+
+.whiteone, .whitetwo, .whiteone a{
+    color:white;
+}
+
+.hero-form{
+    margin-top: 8%;
+    padding-top: 8%;
+}
