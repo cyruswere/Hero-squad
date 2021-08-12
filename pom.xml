@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mycompany.app</groupId>
-    <artifactId>oderoherosquad</artifactId>
+    <groupId>com.moringa.heroSquad</groupId>
+    <artifactId>hero-squad-2</artifactId>
     <version>1.0</version>
 
     <dependencies>
@@ -61,9 +61,9 @@
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <!-- Change this to YOUR application name! -->
-                    <appName>oderoherosquad</appName>
+                    <appName>hero-squad-2</appName>
                     <processTypes>
-                        <web>java -jar target/oderoherosquad-1.0-jar-with-dependencies.jar</web>
+                        <web>java -jar target/hero-squad-2-1.0-jar-with-dependencies.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>

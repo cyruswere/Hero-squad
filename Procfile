@@ -1,1 +1,1 @@
-web : ./build/install/oderoherosquad/bin/oderoherosquad
+web : ./build/install/hero-squad-2/bin/hero-squad-2
